@@ -1,7 +1,7 @@
 header {
   width: 100%;
   height: 80px;
-  background-color: red;
+  background-color: var(--red);
 }
 
 .header-content {
@@ -10,4 +10,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.header-content-logo {
+  height: 50px;
+}
+
+.header-content-description {
+  color: var(--white);
 }
