@@ -4,8 +4,11 @@
 
 .list-content {
   width: 100%;
+  padding: 64px 0;
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 32px;
 }
